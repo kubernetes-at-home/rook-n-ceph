@@ -35,3 +35,9 @@
 ```
 
 Open the browser to http://(worker-node-ip):(node-port)
+
+
+## NodePort setup for Ceph Dashboard
+```shell script
+  kubectl apply -f ceph-dashboard-svc.yaml
+```
