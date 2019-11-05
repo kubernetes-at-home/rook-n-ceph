@@ -25,3 +25,13 @@
   kubectl create -f wordpress.yaml
 
 ```
+
+## Open Wordpress
+
+```shell script
+  # Get the NodePort for the service
+  kubectl get svc/wordpress -n default
+
+```
+
+Open the browser to http://(worker-node-ip):(node-port)
